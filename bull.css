@@ -1,0 +1,110 @@
+*{ padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+text-decoration: none;
+}
+.body{
+    overflow-x: hidden;
+}
+.red{
+    width: 1280PX;
+    max-width: 95%;
+    margin: auto;
+    padding: 0px 20px;
+}
+.baby{
+width: 100%;
+height: 100%;
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(pop.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+
+.musty{
+    padding-top: 190px;
+
+}
+.musty .musty-ro{
+    margin-bottom: 40px;
+    
+}
+.musty .musty-ro h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0px 20px;
+}
+.musty .musty-ro h2{
+
+    color: white;
+}
+span{
+    color: #36e4d5;
+}
+.musty .musty-ro h3{
+    color: #eee;
+    font-weight: 400;
+    font-size: 17px;
+}
+.musty .musty-ro p{
+    width: 440px;
+    max-width: 100%;
+    color: #eee;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-weight: 1000px;
+}
+.musty2 a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 35px;
+}
+.musty2 a:hover{
+    transform: scale(1.1);
+    background: #36e4d5;
+    transition: .4s;
+}
+.musty .musty-ro button{
+    color: #eee;
+    background:linear-gradient(45deg, #36e4d5, transparent);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 30px;
+    border: 2px solid #36e4d5;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.musty .musty-ro button:hover{
+    background: transparent;
+    border: 2px solid #36e4d5;
+    color: white;
+    transition: .4s;
+
+
+}
+.wayu{
+    margin-top: 243px;
+    padding-bottom: 40px;
+
+}
+.wayu p{color: #eee;
+letter-spacing: 2px;
+font-size: 15px;
+}
+
